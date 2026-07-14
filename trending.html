@@ -16,10 +16,7 @@
             <div class="preloader-ring"></div>
             <div class="preloader-ring"></div>
             <div class="preloader-logo">
-                <span class="preloader-letter" style="--i:0">L</span>
-                <span class="preloader-letter" style="--i:1">U</span>
-                <span class="preloader-letter" style="--i:2">X</span>
-                <span class="preloader-letter" style="--i:3">E</span>
+                <img src="images/logo.webp" alt="LUXE" class="preloader-logo-img">
             </div>
             <div class="preloader-counter" id="preloaderCounter">0%</div>
             <div class="preloader-tagline">Redefining Fashion</div>
@@ -33,7 +30,7 @@
                     <span></span><span></span><span></span>
                 </button>
                 <div class="logo">
-                    <a href="index.html">LUXE</a>
+                    <a href="index.html"><img src="images/logo.webp" alt="LUXE" class="nav-logo-img"></a>
                 </div>
             </div>
             <div class="nav-right">
@@ -57,6 +54,9 @@
                     <i class="fas fa-shopping-bag"></i>
                     <span class="badge" id="cartBadge">0</span>
                 </button>
+                <a href="signin.html" class="auth-nav-btn" id="authNavBtn" aria-label="Account">
+                    <i class="fas fa-user"></i>
+                </a>
             </div>
         </div>
     </nav>
@@ -64,7 +64,7 @@
     <!-- Mobile Nav Offcanvas (Bootstrap) -->
     <div class="offcanvas offcanvas-start mobile-nav-offcanvas" tabindex="-1" id="mobileNavOffcanvas" aria-labelledby="mobileNavLabel">
         <div class="offcanvas-header">
-            <span class="offcanvas-title drawer-logo" id="mobileNavLabel">LUXE</span>
+            <span class="offcanvas-title drawer-logo" id="mobileNavLabel"><img src="images/logo.webp" alt="LUXE" class="drawer-logo-img"></span>
             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
         <div class="offcanvas-body mobile-nav-body">
@@ -73,6 +73,7 @@
                 <a href="collections.html" class="drawer-link"><i class="fas fa-grid-2"></i><span>Collections</span></a>
                 <a href="new-arrivals.html" class="drawer-link"><i class="fas fa-sparkles"></i><span>New Arrivals</span></a>
                 <a href="trending.html" class="drawer-link active"><i class="fas fa-fire"></i><span>Trending</span></a>
+                <a href="signin.html" class="drawer-link"><i class="fas fa-user"></i><span>Sign In</span></a>
             </nav>
             <div class="drawer-divider"></div>
             <div class="drawer-actions">
@@ -84,7 +85,7 @@
                 </button>
             </div>
             <div class="drawer-footer">
-                <p>LUXE Fashion Boutique</p>
+                <img src="images/logo.webp" alt="LUXE" class="drawer-footer-logo">
                 <span>&copy; 2026 All rights reserved</span>
             </div>
         </div>
@@ -120,7 +121,7 @@
                     </div>
                     <div class="trending-hero-side">
                         <div class="trending-hero-card">
-                            <img src="https://images.unsplash.com/photo-1434389677669-e08b4cda3ea2?w=600&q=80" alt="Trending 2" loading="lazy">
+                            <img src="https://images.unsplash.com/photo-1610288311735-39b7facbd095?w=600&q=80" alt="Trending 2" loading="lazy">
                             <div class="trending-hero-overlay">
                                 <span class="trending-hero-tag">Minimalist</span>
                                 <h3>Clean Lines</h3>
@@ -153,7 +154,7 @@
                         </div>
                     </div>
                     <div class="trend-cat-card" data-trend="minimalist">
-                        <img src="https://images.unsplash.com/photo-1434389677669-e08b4cda3ea2?w=400&q=80" alt="Minimalist" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1610288311735-39b7facbd095?w=400&q=80" alt="Minimalist" loading="lazy">
                         <div class="trend-cat-info">
                             <h3>Minimalist</h3>
                             <span>96 items</span>
@@ -181,7 +182,7 @@
                         </div>
                     </div>
                     <div class="trend-cat-card" data-trend="evening">
-                        <img src="https://images.unsplash.com/photo-1518622358385-8ea7d38923a0?w=400&q=80" alt="Evening" loading="lazy">
+                        <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=400&q=80" alt="Evening" loading="lazy">
                         <div class="trend-cat-info">
                             <h3>Evening Wear</h3>
                             <span>64 items</span>
@@ -293,7 +294,7 @@
                         <span class="influencer-followers">312K followers</span>
                         <div class="influencer-products">
                             <img src="https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=100&q=80" alt="Product" loading="lazy">
-                            <img src="https://images.unsplash.com/photo-1518622358385-8ea7d38923a0?w=100&q=80" alt="Product" loading="lazy">
+                            <img src="https://images.unsplash.com/photo-1496747611176-843222e1e57c?w=100&q=80" alt="Product" loading="lazy">
                             <img src="https://images.unsplash.com/photo-1564257631407-4deb1f99d992?w=100&q=80" alt="Product" loading="lazy">
                         </div>
                     </div>
@@ -306,9 +307,9 @@
                         <span class="influencer-handle">@miatrends</span>
                         <span class="influencer-followers">156K followers</span>
                         <div class="influencer-products">
-                            <img src="https://images.unsplash.com/photo-1434389677669-e08b4cda3ea2?w=100&q=80" alt="Product" loading="lazy">
+                            <img src="https://images.unsplash.com/photo-1610288311735-39b7facbd095?w=100&q=80" alt="Product" loading="lazy">
                             <img src="https://images.unsplash.com/photo-1583496661160-fb5886a0aaaa?w=100&q=80" alt="Product" loading="lazy">
-                            <img src="https://images.unsplash.com/photo-1544923246-77307dd270aa?w=100&q=80" alt="Product" loading="lazy">
+                            <img src="https://images.unsplash.com/photo-1551537482-f2075a1d41f2?w=100&q=80" alt="Product" loading="lazy">
                         </div>
                     </div>
                 </div>
@@ -347,13 +348,13 @@
         <div class="container">
             <div class="footer-grid">
                 <div class="footer-brand">
-                    <a href="index.html" class="footer-logo">LUXE</a>
+                    <a href="index.html" class="footer-logo"><img src="images/logo.webp" alt="LUXE" class="footer-logo-img"></a>
                     <p>Curated fashion for the modern individual. Premium quality, timeless designs.</p>
                     <div class="social-links">
-                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
-                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
-                        <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
-                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="error.html" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="error.html" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="error.html" aria-label="Pinterest"><i class="fab fa-pinterest"></i></a>
+                        <a href="error.html" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
                     </div>
                 </div>
                 <div class="footer-links">
