@@ -452,13 +452,11 @@
         function openSidebar() {
             sidebar.classList.add('open');
             sidebarBackdrop.classList.add('active');
-            sidebarBackdrop.style.display = 'block';
             document.body.classList.add('sidebar-open');
         }
         function closeSidebar() {
             sidebar.classList.remove('open');
             sidebarBackdrop.classList.remove('active');
-            setTimeout(() => sidebarBackdrop.style.display = 'none', 300);
             document.body.classList.remove('sidebar-open');
         }
 
